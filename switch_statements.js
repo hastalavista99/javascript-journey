@@ -1,5 +1,5 @@
 
-/*//below is the switch statement
+//below is the switch statement
 function caseInSwitch(val) {
     var answer = "";
     switch(val) {
@@ -23,7 +23,23 @@ function caseInSwitch(val) {
     return answer
 }
 
-console.log(caseInSwitch(3));//this outputs the value of case 3 to the console*/
+console.log(caseInSwitch(3));//this outputs the value of case 3 to the console
+
+//we can use an object to  replace the switch statement above
+
+function caseInSwitch(val) {
+    var answer = "";
+    var lookup = {
+        1: "alpha",
+        2: "beta",
+        3: "gamma",
+        4: "delta"
+    };
+
+    result = lookup[val];
+
+    return result
+}
 
 //It is possible to get the same output for a number of switch cases by omitting the break statement as in the example below
 function caseInSwitch(val) {

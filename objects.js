@@ -15,7 +15,16 @@ testObj.drink = "tequilla";
 //here we are using dot notation as there's no space in the name though it can also work in the same case
 var drinkValue = testObj.drink;//drinkValue = tequilla
 
-
-
-
 console.log(drinkValue);//this will print out the new drink value "tequilla"
+
+
+//you can add new properties to an object using bracket or dot notations as follows
+testObj['condiment'] = "coleslaw";
+
+//properties can be deleted from the object
+delete testObj["an entree"];
+
+
+
+
+
