@@ -44,6 +44,7 @@ function multiplyAll(arr) {
     return product
 }
 
+//below we pass in a multi-dimesional array as the function parameter
 var product = multiplyAll([[3, 4], [5, 2], [8, 4], [6, 2, 4]]);
 
 console.log(product);
