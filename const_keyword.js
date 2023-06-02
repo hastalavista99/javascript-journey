@@ -13,3 +13,5 @@ function funcConst(str) {
 funcConst("Micrologic");
 
 
+
+
